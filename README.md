@@ -1,2 +1,2 @@
 # frontend
-Frontend for steamboat, where configuration happens
+Frontend for steamboat, where configuration happens.
