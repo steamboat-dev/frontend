@@ -1,0 +1,33 @@
+{
+  "name": "steamboatfrontend",
+  "version": "1.0.0",
+  "description": "Frontend for steamboat, where configuration happens.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steamboat-dev/frontend.git"
+  },
+  "author": "Steamboat Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steamboat-dev/frontend/issues"
+  },
+  "homepage": "https://github.com/steamboat-dev/frontend#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "del": "^2.2.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-uglify": "^2.1.2",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-discord": "^0.1.2"
+  }
+}
