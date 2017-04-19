@@ -4,6 +4,7 @@ module.exports = {
     'port': 3069,
     'onlyListenLocal': true,
     'trustProxyDepth': 1, // How many levels of proxy to trust for IP
+    'sitePrefix': '',
     'oauth': {
         // OAuth is required in this instance.
         'discord': {
