@@ -35,6 +35,11 @@ app.server = require('http').createServer(app.httpServer.server);
 // Connect to the database
 mongoose.connect(config.database);
 
+
+gulp.task('clean', function() {
+    return del(['/src/public/js/build']);
+});
+
 // Process JS for niceity of web browsers
 gulp.task('scripts', ['clean'], (cb) => {
     console.log("Processing JavaScript...");
